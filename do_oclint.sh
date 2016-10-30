@@ -3,18 +3,18 @@
 cpp_files=`ls *.cpp | egrep -v "^.*_test\.cpp$"`
 h_files=`ls *.h`
 
-# fPIE: Qt5
 ./oclint-0.10.3/bin/oclint -o oclint.log \
   -disable-rule ShortVariableName \
   $cpp_files \
   $h_files \
   -- \
-  -c -std=c++14 -fPIE \
+  -c -std=c++14 \
   -I/usr/include/c++/5 \
   -I/usr/include/x86_64-linux-gnu/c++/5 \
+  -I/usr/include/qt5 \
   -I/usr/include/qt5/QtCore \
+  -I/usr/include/qt5/QtGui \
   -I/usr/include/qt5/QtWidgets
-
 
 cat oclint.log
 
