@@ -25,10 +25,10 @@ install:
 
 script: 
   # Build test
-  - qmake travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_test.pro
+  - qmake travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_test.pro -qt=qt5
   - make
   # Build 'real' program
-  - qmake travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5.pro
+  - qmake travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5.pro -qt=qt5
   - make
   # Run tests
   - ./travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_test

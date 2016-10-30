@@ -25,11 +25,11 @@ More complex builds:
  * Add QTest: [travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_qtest)
 
 Less complex builds:
- * Use Qt4: [travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt4](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt4)
+ * Use Qt4 instead of Qt5: [travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt4](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt4)
  * No Qt: [travis_qmake_gcc_cpp14_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint)
  * No OCLint: [travis_qmake_gcc_cpp14_boost_test_gcov](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov)
  * No gcov: [travis_qmake_gcc_cpp14_boost_test_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_oclint)
  * No Boost.Test: [travis_qmake_gcc_cpp14_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov_oclint)
- * Use C++11: [travis_qmake_gcc_cpp11_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_gcov_oclint)
- * Use C++98: [travis_qmake_gcc_cpp98_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_gcov_oclint)
+ * Use C++11 instead of C++14: [travis_qmake_gcc_cpp11_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_boost_test_gcov_oclint)
+ * Use C++98 instead of C++14: [travis_qmake_gcc_cpp98_boost_test_gcov_oclint](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_boost_test_gcov_oclint)
 
