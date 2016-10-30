@@ -18,7 +18,11 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Code linter: OCLint
  * Source: multiple files
 
+Note that Boost.Test only tests the non-Qt functions,
+as Qt classes are better checked by QTest.
+
 More complex builds:
+ * Add QTest: [travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_qtest)
 
 Less complex builds:
  * Use Qt4: [travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt4](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt4)
