@@ -18,10 +18,10 @@ install:
 script: 
   # Build test
   - qmake -qt=qt5 travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_test.pro
-  - make
+  - make --silent
   # Build 'real' program
   - qmake -qt=qt5 travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5.pro
-  - make
+  - make --silent
   # Run tests
   - ./travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_test
   # Get code coverage
