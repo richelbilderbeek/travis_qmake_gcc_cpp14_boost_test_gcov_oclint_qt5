@@ -28,9 +28,10 @@ script:
   - ./get_code_cov.sh
   - codecov
   # Call OCLint
+  - qtchooser -print-env
   - ./do_oclint.sh
 
-after_fail:
+after_failure:
   - qtchooser -print-env
 
 after_success:
