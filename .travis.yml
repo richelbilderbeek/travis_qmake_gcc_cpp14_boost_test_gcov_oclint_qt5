@@ -30,5 +30,8 @@ script:
   # Call OCLint
   - ./do_oclint.sh
 
+after_fail:
+  - qtchooser -print-env
+
 after_success:
   - bash <(curl -s https://codecov.io/bash)
