@@ -12,9 +12,9 @@ h_files=`ls *.h`
   -I/usr/include/c++/5 \
   -I/usr/include/x86_64-linux-gnu/c++/5 \
   -I/usr/include/x86_64-linux-gnu/qt5 \
-  -I/usr/include/qt5/QtCore \
-  -I/usr/include/qt5/QtGui \
-  -I/usr/include/qt5/QtWidgets
+  -I/usr/include/x86_64-linux-gnu/QtCore \
+  -I/usr/include/x86_64-linux-gnu/QtGui \
+  -I/usr/include/x86_64-linux-gnu/QtWidgets
 
 cat oclint.log
 
