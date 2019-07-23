@@ -8,6 +8,8 @@ addons:
     packages: libboost-all-dev
 
 install: 
+  # Qt5
+  - sudo apt install qt5-default
   # Codecov
   - sudo pip install codecov
   # OCLint
