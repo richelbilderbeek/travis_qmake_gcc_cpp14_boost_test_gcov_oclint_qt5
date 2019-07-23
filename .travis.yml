@@ -28,8 +28,6 @@ script:
   - ./get_code_cov.sh
   - codecov
   # Call OCLint
-  - cd / ; find . -name QDialog
-  - cd / ; find . -name QApplication
   - ./do_oclint.sh
 
 after_success:
