@@ -9,7 +9,7 @@ addons:
 
 install: 
   # Qt5
-  - sudo apt install qt5-default
+  - sudo apt install qtbase5-dev qt5-default
   # Codecov
   - sudo pip install codecov
   # OCLint
