@@ -1,13 +1,11 @@
 language: cpp
-dist: xenial
+dist: bionic
 compiler: gcc
 
-# Boost
-addons: 
-  apt: 
-    packages: libboost-all-dev
-
 install: 
+  - sudo apt update -qq
+  # Boost
+  - sudo apt install -qq libboost-all-dev
   # Qt5
   - sudo apt install qtbase5-dev qt5-default
   # Codecov
