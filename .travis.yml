@@ -23,8 +23,8 @@ script:
   # Run tests
   - ./travis_qmake_gcc_cpp14_boost_test_gcov_oclint_qt5_test
   # Get code coverage
-  - ./get_code_cov.sh
-  - codecov
+  - ./get_code_cov.sh >/dev/null
+  - codecov >/dev/null
   # Call OCLint
   - ./do_oclint.sh || true
 
